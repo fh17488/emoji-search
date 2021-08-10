@@ -3,12 +3,3 @@ os: linux
 files:
   - source: /build/
     destination: /var/www/html/
-hooks:
-  BeforeInstall:
-    timeout: 3
-  AfterInstall:
-    timeout: 3
-  ApplicationStart:
-    timeout: 3
-  ApplicationStop:
-    timeout: 3
